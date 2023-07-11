@@ -74,6 +74,83 @@ button {
     height: 550px;
 }
 
+/* Featured Flowers */
+
+.featured-wrapper{
+    margin: auto;
+    text-align: center;
+}
+.featured-info{
+    padding-top: 80px;
+}
+.featured-info h2{
+    font-size: 35px;
+}
+.featured-img{
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-content: stretch;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+/* customize featured img 01 */
+
+.featured-img-1{
+    width: 300px;
+    background-color:#477d111b;
+    height: 320px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    text-align: center;
+}
+
+.featured-img-1 img{
+    width: 200px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+/* customize featured img 02 */
+
+.featured-img-2{
+    width: 300px;
+    background-color:#0598a02f;
+    height: 320px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.featured-img-2 img{
+    width: 200px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+/* customize featured img 03 */
+
+.featured-img-3{
+    width: 300px;
+    background-color:#a7216229;
+    height: 320px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.featured-img-3 img{
+    width: 200px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+a {
+    
+    margin-left: 38px;
+}
 
 /* Hot Deal Items css */
 .hot-deal-items {
