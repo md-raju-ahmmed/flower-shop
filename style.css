@@ -73,6 +73,31 @@ button{
 .hot-deal-info{
     text-align: center;
 }
+.deal-offer{
+    color: #E55473;
+}
 .hot-deal-info p{
     padding: 15px 0px;
+}
+
+/* Social Networking by Instagram  */
+
+.instagram-info {
+    text-align: center;
+   
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.instagram-info p{
+    padding: 10px 0px;
+    line-height: 2.9vh;
+}
+
+.img-gallery{
+    display: flex;
+    gap:20px;
+    margin-bottom: 30px;
+
+
 }
