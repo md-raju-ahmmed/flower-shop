@@ -273,52 +273,6 @@ input.input-submit {
     color: #fff;
 }
 
-/* Our Latest News */
-
-.news-wrapper {
-    padding-bottom: 160px;
-}
-
-.blog-info {
-    text-align: center;
-    padding: 50px 0px;
-}
-
-.info-bright {
-    color: #E55473;
-}
-
-.blog-info h2 {
-    font-size: 35px;
-    padding-bottom: 20px;
-}
-
-.blog-card {
-    display: flex;
-    justify-content: space-between;
-}
-
-.blog-card h3 {
-    font-size: 22px;
-}
-
-.single-card {
-    width: 380px;
-    height: 350px;
-    text-align: center;
-
-}
-
-.single-card img {
-    width: 380px;
-    height: 350px;
-    border-radius: 10px;
-    padding-bottom: 20px;
-}
-
-.single-card p {
-    padding-bottom: 20px;
-}
 
 /* Footer Secton */
 
