@@ -136,6 +136,7 @@ button {
     margin-bottom: 40px;
     background-image: url('flower asset/Rectangle\ 9.png');
 
+
 }
 
 .subscribe-items {
@@ -169,4 +170,33 @@ input.input-submit {
     border: none;
     background-color: #E55473;
     color: #fff;
+}
+
+/* Footer Secton */
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:#fff;
+    height: 400px;
+    margin-top: 80px;
+}
+
+.footer-info {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.footer-title{
+    color: #E55473;
+}
+.footer-info p{
+    padding:20px 0px; 
+    
+}
+.copy-right{
+    color: rgb(151, 116, 116);
 }
