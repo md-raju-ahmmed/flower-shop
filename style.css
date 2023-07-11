@@ -13,8 +13,6 @@
 .container {
     width: 1270px;
     margin: auto;
-    /* background-color: navy; */
-
 }
 
 h1,
@@ -47,9 +45,9 @@ p {
 }
 
 .banner-info h2 {
-    font-size: 45px;
+    font-size: 55px;
     line-height: 5.9vh;
-    font-weight: 700;
+    font-weight: 600;
 
 
 }
@@ -88,7 +86,7 @@ button {
 }
 .featured-img{
     display: flex;
-    gap: 20px;
+    gap: 18px;
     flex-wrap: nowrap;
     flex-direction: row-reverse;
     align-content: stretch;
@@ -96,63 +94,82 @@ button {
     padding: 50px 0px;
 }
 
-/* customize featured img 01 */
+/*.................................... customize featured img 01 */
 
 .featured-img-1{
-    width: 300px;
-    background-color:#477d111b;
-    height: 320px;
+    width: 410px;
+    background-color:#477d1123;
+    height: 400px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    text-align: center;
+    
+}
+
+.featured-img-1 img{
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+/*........................................ customize featured img 02 */
+
+.featured-img-2{
+    width: 410px;
+    background-color:#0598a01e;
+    height: 400px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     text-align: center;
 }
 
-.featured-img-1 img{
-    width: 200px;
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 30px;
-}
-
-/* customize featured img 02 */
-
-.featured-img-2{
-    width: 300px;
-    background-color:#0598a02f;
-    height: 320px;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-}
-
 .featured-img-2 img{
-    width: 200px;
-    height: 250px;
-    margin-top: 70px;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
     margin-left: 30px;
+    margin-bottom: 20px;
 }
-/* customize featured img 03 */
+
+/*.......................................... customize featured img 03 */
 
 .featured-img-3{
-    width: 300px;
-    background-color:#a7216229;
-    height: 320px;
+    width: 410px;
+    background-color:#a7216223;
+    height: 400px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
+    text-align: center;
 }
 
 .featured-img-3 img{
-    width: 200px;
-    height: 250px;
-    margin-top: 70px;
+    width: 250px;
+    height: 300px;
+    margin-top: 100px;
     margin-left: 30px;
+    margin-bottom: 20px;
 }
 
-a {
-    
-    margin-left: 38px;
+
+
+/* Customer to Delivery support section css */
+
+.customar-section-wrapper{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+    gap:80px;
+    background-color: #2727270d;
+ text-align: center;
+    padding: 40px 0px;
 }
+
 
 /* Hot Deal Items css */
+
 .hot-deal-items {
     display: flex;
     justify-content: center;
@@ -186,7 +203,9 @@ a {
     padding: 10px 0px;
     line-height: 2.9vh;
 }
-
+.instagram-info h2{
+    font-size: 35px;
+}
 .img-gallery {
     display: flex;
     margin-bottom: 30px;
