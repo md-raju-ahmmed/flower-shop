@@ -22,7 +22,6 @@ h4,
 h5,
 h6 {
     font-family: 'Poppins', sans-serif;
-
 }
 
 p {
@@ -35,6 +34,7 @@ p {
 .section-wrapper {
     background-color: #e5547325;
     width: 100%;
+padding-top:40px ;
 }
 
 .banner-items {
@@ -46,7 +46,7 @@ p {
 
 .banner-info h2 {
     font-size: 55px;
-    line-height: 5.9vh;
+    line-height: 6.8vh;
     font-weight: 600;
 
 
@@ -69,22 +69,25 @@ button {
 
 .banner-img img {
     width: 500px;
-    height: 550px;
+   
 }
 
 /* Featured Flowers */
 
-.featured-wrapper{
+.featured-wrapper {
     margin: auto;
     text-align: center;
 }
-.featured-info{
+
+.featured-info {
     padding-top: 80px;
 }
-.featured-info h2{
+
+.featured-info h2 {
     font-size: 35px;
 }
-.featured-img{
+
+.featured-img {
     display: flex;
     gap: 18px;
     flex-wrap: nowrap;
@@ -96,17 +99,17 @@ button {
 
 /*.................................... customize featured img 01 */
 
-.featured-img-1{
+.featured-img-1 {
     width: 410px;
-    background-color:#477d1123;
+    background-color: #477d1123;
     height: 400px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     text-align: center;
-    
+
 }
 
-.featured-img-1 img{
+.featured-img-1 img {
     width: 250px;
     height: 300px;
     margin-top: 100px;
@@ -116,16 +119,16 @@ button {
 
 /*........................................ customize featured img 02 */
 
-.featured-img-2{
+.featured-img-2 {
     width: 410px;
-    background-color:#0598a01e;
+    background-color: #0598a01e;
     height: 400px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     text-align: center;
 }
 
-.featured-img-2 img{
+.featured-img-2 img {
     width: 250px;
     height: 300px;
     margin-top: 100px;
@@ -135,16 +138,16 @@ button {
 
 /*.......................................... customize featured img 03 */
 
-.featured-img-3{
+.featured-img-3 {
     width: 410px;
-    background-color:#a7216223;
+    background-color: #a7216223;
     height: 400px;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     text-align: center;
 }
 
-.featured-img-3 img{
+.featured-img-3 img {
     width: 250px;
     height: 300px;
     margin-top: 100px;
@@ -156,14 +159,14 @@ button {
 
 /* Customer to Delivery support section css */
 
-.customar-section-wrapper{
+.customar-section-wrapper {
     display: flex;
     margin-top: 40px;
     margin-bottom: 40px;
     justify-content: space-evenly;
-    gap:80px;
+    gap: 80px;
     background-color: #2727270d;
- text-align: center;
+    text-align: center;
     padding: 40px 0px;
 }
 
@@ -203,9 +206,11 @@ button {
     padding: 10px 0px;
     line-height: 2.9vh;
 }
-.instagram-info h2{
+
+.instagram-info h2 {
     font-size: 35px;
 }
+
 .img-gallery {
     display: flex;
     margin-bottom: 30px;
@@ -268,6 +273,53 @@ input.input-submit {
     color: #fff;
 }
 
+/* Our Latest News */
+
+.news-wrapper {
+    padding-bottom: 160px;
+}
+
+.blog-info {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.info-bright {
+    color: #E55473;
+}
+
+.blog-info h2 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.blog-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-card h3 {
+    font-size: 22px;
+}
+
+.single-card {
+    width: 380px;
+    height: 350px;
+    text-align: center;
+
+}
+
+.single-card img {
+    width: 380px;
+    height: 350px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.single-card p {
+    padding-bottom: 20px;
+}
+
 /* Footer Secton */
 
 .footer-wrapper {
@@ -275,7 +327,7 @@ input.input-submit {
     align-items: center;
     justify-content: center;
     background-color: black;
-    color:#fff;
+    color: #fff;
     height: 400px;
     margin-top: 80px;
 }
@@ -286,13 +338,16 @@ input.input-submit {
     align-items: center;
     justify-content: center
 }
-.footer-title{
+
+.footer-title {
     color: #E55473;
 }
-.footer-info p{
-    padding:20px 0px; 
-    
+
+.footer-info p {
+    padding: 20px 0px;
+
 }
-.copy-right{
+
+.copy-right {
     color: rgb(151, 116, 116);
 }
