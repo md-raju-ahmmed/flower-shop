@@ -26,7 +26,7 @@ p{
 
 /* Hero section or  Banner section css*/
 
-.hero-section-wrapper{
+.section-wrapper{
     background-color:#e5547325;
     width: 100%;
 }
@@ -47,7 +47,7 @@ p{
     padding: 30px 0px;
     line-height: 2.9vh;
 }
-.banner-info button{
+button{
     background-color:#E55473;
     padding: 10px 30px;
     border: none;
@@ -58,4 +58,21 @@ p{
 .banner-img img{
     width: 500px;
     height: 550px;
+}
+
+
+/* Hot Deal Items css */
+.hot-deal-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.hot-deal-info{
+    text-align: center;
+}
+.hot-deal-info p{
+    padding: 15px 0px;
 }
