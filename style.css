@@ -3,66 +3,80 @@
 
 /* Close the default margin & padding */
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 /*  Below the Main default css */
 
-.container{
+.container {
     width: 1270px;
     margin: auto;
-  
+    /* background-color: navy; */
+
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins', sans-serif;
-    
+
 }
-p{
+
+p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
 
 /* Hero section or  Banner section css*/
 
-.section-wrapper{
-    background-color:#e5547325;
+.section-wrapper {
+    background-color: #e5547325;
     width: 100%;
 }
-.banner-items{
+
+.banner-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.banner-info h2{
+
+.banner-info h2 {
     font-size: 45px;
     line-height: 5.9vh;
     font-weight: 700;
-  
+
 
 }
-.banner-info p{
+
+.banner-info p {
     padding: 30px 0px;
     line-height: 2.9vh;
 }
-button{
-    background-color:#E55473;
+
+button {
+    background-color: #E55473;
     padding: 10px 30px;
     border: none;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     border-radius: 5px;
+    color: #fff;
 }
-.banner-img img{
+
+.banner-img img {
     width: 500px;
     height: 550px;
 }
 
 
 /* Hot Deal Items css */
-.hot-deal-items{
+.hot-deal-items {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,13 +84,16 @@ button{
     flex-wrap: wrap;
     align-content: stretch;
 }
-.hot-deal-info{
+
+.hot-deal-info {
     text-align: center;
 }
-.deal-offer{
+
+.deal-offer {
     color: #E55473;
 }
-.hot-deal-info p{
+
+.hot-deal-info p {
     padding: 15px 0px;
 }
 
@@ -84,20 +101,72 @@ button{
 
 .instagram-info {
     text-align: center;
-   
     padding-top: 90px;
     padding-bottom: 50px;
 }
 
-.instagram-info p{
+.instagram-info p {
     padding: 10px 0px;
     line-height: 2.9vh;
 }
 
-.img-gallery{
+.img-gallery {
     display: flex;
-    gap:20px;
     margin-bottom: 30px;
+    gap: 23.4px;
+}
+
+.img-gallery img {
+    width: 300px;
+}
 
 
+/* Subscribe Section css */
+
+
+
+.subscribe-wrapper {
+    width: 100%;
+    height: 350px;
+    background-color: #5487e5;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    background-image: url('flower asset/Rectangle\ 9.png');
+
+}
+
+.subscribe-items {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-items h2 {
+    font-size: 35px;
+}
+
+.input-items {
+    margin-top: 30px;
+}
+
+input.input-fild {
+    padding-bottom: 13px;
+    padding-top: 13px;
+    padding-right: 300px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+input.input-submit {
+    padding: 13px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #E55473;
+    color: #fff;
 }
